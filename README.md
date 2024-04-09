@@ -1,1 +1,1 @@
-https://VGolub19.github.io/zoo
+https://vgolub19.github.io/zoo/
