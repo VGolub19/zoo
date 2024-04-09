@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo</title>
+    <link rel="preload" href="fonts/cormorant-v11-latin_cyrillic-700.woff2" as="font" type="font/woff2" crossorigin>
+
+    <style>
+        :root{
+    --main-color:#ffffff;
+    --second-color:#262626;
+    --one-color:#006F55;
+    --two-color:#00654E;
+    --three-color:#005844;
+    --main-bg-color:#02392c;
+    --second-bg-color:#C0B487;
+    --trigger-color:#E5AB39;
+
+    
+}
+    </style>
+
+<link rel="stylesheet" href="style/normalize.css">
+<link rel="stylesheet" href="style/default.css">
+<link rel="stylesheet" href="style/style.css">
+<script src="script/burger.js" defer></script>
+   
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <img class="logo" src="img/logo.svg" alt="Logo">
+            <button class="burger header__burger">
+                <span class="burger__line"></span>
+            </button>
+
+            <nav class="header__navigation navigation">
+               <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a href="index.html" class="navigation__link">Главная</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="Waifs.html" class="navigation__link">Потеряшки</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="help.html" class="navigation__link">Помощь
+                    </a>
+                </li>
+                <li class="navigation__item">
+                    <a href="Give.html" class="navigation__link">Продам/Отдам</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="clinics.html" class="navigation__link">Вет.клиники</a>
+                </li>
+               </ul> 
+            </nav>
+
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container hero__container">
+                <div class="hero__left">
+                    <img class="hero__img" src="img/dog.jpg"  width="705" height="769" alt="dog">
+                </div>
+                <div class="hero__right">
+                     <h1 class="hero__title">Здоровые питомцы - счастливые хозяева!</h1>
+                       
+                </div>
+            </div>
+        </section>
+       
+        <section class="pay" id="pay">
+            <div class="container">
+              <h2 class="pay__title"></h2>
+              <ul class="pay__list">
+                <li class="pay__item">
+                    <article class="pay__option_pay option-pay">
+                       <div class="option-pay__picture-wrapper">
+                            <img class="option-pay__picture" src="img/clinic1.jpg" alt="Платежные системы">
+                       </div> 
+                       <h3 class="option-pay__title">ЭтнаВет</h3>
+                       <p class="option-pay__descriptiot">Услуги: Вакцинация Чипирование Терапия Хирургия,Лаборатория Ветеринарная аптека</p>
+                       <p class="option-pay__descriptiot">Адрес: ул. Я. Коласа 74, Бобруйск, Могилёвская область</p>
+                       <a href="tel:+375447946114">80447946114</a>
+                    </article>
+                </li>
+
+                <li class="pay__item">
+                    <article class="pay__option_pay option-pay">
+                       <div class="option-pay__picture-wrapper">
+                            <img class="option-pay__picture" src="img/clinic2.jpg" alt="Платежные системы">
+                       </div> 
+                       <h3 class="option-pay__title">СимбаВет</h3>
+                       <p class="option-pay__descriptiot"> Услуги для домашних животных</p>
+                       <p class="option-pay__descriptiot">Адрес: город Бобруйск, 6-ой микрорайон, ул. Комбинатская 204</p>
+                       <a href="tel:+375291227078">+375(29)122-70-78Vel,</a>
+                    </article>
+                </li>
+                <li class="pay__item">
+                    <article class="pay__option_pay option-pay">
+                       <div class="option-pay__picture-wrapper">
+                            <img class="option-pay__picture" src="img/clinic4.jpg" alt="Платежные системы">
+                       </div> 
+                       <h3 class="option-pay__title">Век</h3>
+                       <p class="option-pay__descriptiot">
+                        Птицы,
+                        Биохимический,
+                        Кастрация кота,
+                        Кастрация собаки,
+                        Общий анализ крови,
+                        Стерилизация кошки,
+                        Стерилизация собаки,
+                        Стрижка когтей,
+                        Чистка ушей</p>
+                        <p class="option-pay__descriptiot">ул. Комарова д. 1, Бобруйск, Могилёвская область</p>
+                       <a href="tel:+375296727227">8 029 672-72-27
+                    </a>
+                    </article>
+                </li>
+                <li class="pay__item">
+                    <article class="pay__option_pay option-pay">
+                       <div class="option-pay__picture-wrapper">
+                            <img class="option-pay__picture" src="img/clinic3.jpg" alt="Платежные системы">
+                       </div> 
+                       <h3 class="option-pay__title">Айболит</h3>
+                       <p class="option-pay__descriptiot">Лечение. Кастрация, стерилизация. Косметические операции. Стоматология. Улучшение жизни старых и тяжелобольных животных!</p>
+                       <p class="option-pay__descriptiot">уул. Советская 38/2, Бобруйск, Могилёвская область 213800</p>
+                       <a href="tel:+375444521443">80444521443</a>
+                    </article>
+                </li>
+                <li class="pay__item">
+                    <article class="pay__option_pay option-pay">
+                       <div class="option-pay__picture-wrapper">
+                            <img class="option-pay__picture" src="img/clinic5.jpg" alt="Платежные системы">
+                       </div> 
+                       <h3 class="option-pay__title">Супервет</h3>
+                       <p class="option-pay__descriptiot">"Ветклиника СуперВет, оказывает различные услуги по лечению ваших питомцев. В нашей ветклинике работают высококвалифицированные специалисты, которые проконсультируют Вас по всем вопросам, которые возникнут по поводу лечения, профилактики или ухода за вашим питомцем. Широкий спектр услуг: анализы крови и мочи, цитология, а так же диагностическое оборудование, включая УЗИ."</p>
+                       <p class="option-pay__descriptiot">ул. Минская 102В, Бобруйск, Могилёвская область 213829</p>
+                       <a href="tel:+375291145400">8 029 114-54-00</a>
+                    </article>
+                </li>
+                <li class="pay__item">
+                    <article class="pay__option_pay option-pay">
+                       <div class="option-pay__picture-wrapper">
+                            <img class="option-pay__picture" src="img/clinic6.png" alt="Платежные системы">
+                       </div> 
+                       <h3 class="option-pay__title">Ветеринарная станция районная</h3>
+                       <p class="option-pay__descriptiot">Услуги для домашних животных</p>
+                       <p class="option-pay__descriptiot">Менжинского 4а, Бобруйск, 213805</p>
+                       <a href="tel:+375225473407">8 0225 47-34-07</a>
+                    </article>
+                </li>
+                <li class="pay__item">
+                    <article class="pay__option_pay option-pay">
+                       <div class="option-pay__picture-wrapper">
+                            <img class="option-pay__picture" src="img/clinic7.jpg" alt="Платежные системы">
+                       </div> 
+                       <h3 class="option-pay__title">Городская ветеринарная станция</h3>
+                       <p class="option-pay__descriptiot">Услуги для домашних животных</p>
+                       <p class="option-pay__descriptiot">ул. Железнодорожная, Бобруйск, Могилёвская область</p>
+                       <a href="tel:+375225 70-83-34">8 0225 70-83-34</a>
+                    </article>
+                </li>
+                <li class="pay__item">
+                    <article class="pay__option_pay option-pay">
+                       <div class="option-pay__picture-wrapper">
+                            <img class="option-pay__picture" src="img/clinic8.jpg" alt="Платежные системы">
+                       </div> 
+                       <h3 class="option-pay__title">Ветеринарная клиника и аптека "Энималс"</h3>
+                       <p class="option-pay__descriptiot">Услуги для домашних животных</p>
+                       <p class="option-pay__descriptiot">ул. Энгельса 73, Бобруйск, Могилёвская область</p>
+                       <a href="tel:+375293674790">8 029 367-47-90</a>
+                    </article>
+                </li>
+                <li class="pay__item">
+                    <article class="pay__option_pay option-pay">
+                       <div class="option-pay__picture-wrapper">
+                            <img class="option-pay__picture" src="img/clinic9.jpg" alt="Платежные системы">
+                       </div> 
+                       <h3 class="option-pay__title">ВетДоктор"</h3>
+                       <p class="option-pay__descriptiot">Услуги: лечение животных ,широкий спектр услуг</p>
+                       <p class="option-pay__descriptiot">ул. Горелика 25а, Бобруйск, Могилёвская область 213825</p>
+                       <a href="tel:+37544 548-38-77">8 044 548-38-77</a>
+                    </article>
+                </li>
+              </ul>  
+            </div>
+        </section>
+    </main>
+    <footer class="contacs">
+        <div class="container">
+            <div class="contacs-content">
+                <p>Если вы потеряли своего любимца <br>или ищите ему новый дом, пришлите необходимую информацию и мы поможем вам!</p>
+            </div>
+            <div class="contacs-button">
+               <a href="mailto:mary260188@mail.ru" class="btn">Отправить сообщение</a>  
+            </div>
+           
+        </div>
+       </footer>
+
+
+</body>
+</html>

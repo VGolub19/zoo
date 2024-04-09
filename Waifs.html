@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo</title>
+    <link rel="preload" href="fonts/cormorant-v11-latin_cyrillic-700.woff2" as="font" type="font/woff2" crossorigin>
+
+    <style>
+        :root{
+    --main-color:#ffffff;
+    --second-color:#262626;
+    --one-color:#006F55;
+    --two-color:#00654E;
+    --three-color:#005844;
+    --main-bg-color:#02392c;
+    --second-bg-color:#C0B487;
+    --trigger-color:#E5AB39;   
+}
+    </style>
+
+<link rel="stylesheet" href="style/normalize.css">
+<link rel="stylesheet" href="style/default.css">
+<link rel="stylesheet" href="style/style.css">
+<script src="script/burger.js" defer></script>
+
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <img class="logo" src="img/logo.svg" alt="Logo">
+            <button class="burger header__burger">
+                <span class="burger__line"></span>
+            </button>
+
+            <nav class="header__navigation navigation">
+               <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a href="index.html" class="navigation__link">Главная</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="Waifs.html" class="navigation__link">Потеряшки</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="help.html" class="navigation__link">Помощь
+                    </a>
+                </li>
+                <li class="navigation__item">
+                    <a href="Give.html" class="navigation__link">Продам/Отдам</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="clinics.html" class="navigation__link">Вет.клиники</a>
+                </li>
+               </ul> 
+            </nav>
+
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container hero__container">
+                <div class="hero__left">
+                    <img class="hero__img" src="img/dog.jpg"  width="705" height="769" alt="dog">
+                </div>
+                <div class="hero__right">
+                     <h1 class="hero__title"></h1>
+                     <p class="hero__description">Вместе находим потерянных друзей - <br>ваша помощь может спасти жизнь!</p>                  
+                </div>
+            </div>
+        </section>
+       
+        <section class="pay">
+            <div class="container">
+              <ul class="pay__list">
+                <li class="pay__item">
+                    <article class="pay__option_pay option-pay">
+                       <div class="option-pay__picture-wrapper">
+                            <img class="option-pay__picture" src="img/cat2.jpg" alt="Изображение питомца">
+                       </div> 
+                       <h3 class="option-pay__title">ПОТЕРЯЛСЯ КОТ!!!</h3>
+                       <p class="option-pay__descriptiot">В районе крепости убежал кот-подросток. Цвет серый мышиный, был в ошейнике голубого цвета. Может быть в районе трикотажной фабрики, ул. Урицкого. Нашедшего просим позвонить за вознаграждение.</p>
+                       <a class="option-pay__telefon" href="tel:+375447013341">+37544 7013341</a>
+                    </article>
+                </li>
+               
+
+                <li class="pay__item">
+                    <article class="pay__option_pay option-pay">
+                       <div class="option-pay__picture-wrapper">
+                            <img class="option-pay__picture" src="img/dog2.jpg" alt="Изображение питомца">
+                       </div> 
+                       <h3 class="option-pay__title">Пропал со двора, йорк, 8 кг</h3>
+                       <p class="option-pay__descriptiot">крупный мальчик, убежал в неизвестном направлении, может быть в любом районе города, зовут Кузя. Если кто-то знает местонахождение, пожалуйста позвоните, вознаграждение 100 рублей гарантирую.</p>
+                       <a class="option-pay__telefon" href="tel:+375297353836">+375 29 7353836</a>
+                    </article>
+                </li>
+                <li class="pay__item">
+                    <article class="pay__option_pay option-pay">
+                       <div class="option-pay__picture-wrapper">
+                            <img class="option-pay__picture" src="img/cat1.jpg" alt="Изображение питомца">
+                       </div> 
+                       <h3 class="option-pay__title">Пропала кошка</h3>
+                       <p class="option-pay__descriptiot">Пропала кошка чёрная, 8 месяцев. Убежала в 5-ом микрорайоне около цветочного магазина на углу Строителей-Батова. Её дома ждёт дочка и ищет пёс. Очень скучаем.</p>
+                       <a class="option-pay__telefon" href="tel:+375293291693">+375293291693</a>
+                    </article>
+                </li>
+                
+                <li class="pay__item">
+                    <article class="pay__option_pay option-pay">
+                       <div class="option-pay__picture-wrapper">
+                            <img class="option-pay__picture" src="img/dog3.jpg" alt="Изображение питомца">
+                       </div> 
+                       <h3 class="option-pay__title">Потерялась собачка</h3>
+                       <p class="option-pay__descriptiot">Девочка, возраст 1 год, не стерелизованна, немного пуглива, сбежала с частного дома с передержки, район кисилевич. Может находиться в любом районе города.</p>
+                       <a class="option-pay__telefon" href="tel:+375296617510">+375 29 6617510</a>
+                    </article>
+                </li>
+                <li class="pay__item">
+                    <article class="pay__option_pay option-pay">
+                       <div class="option-pay__picture-wrapper">
+                            <img class="option-pay__picture" src="img/cat3.jpg" alt="Изображение питомца">
+                       </div> 
+                       <h3 class="option-pay__title">Кот или кошка</h3>
+                       <p class="option-pay__descriptiot">Гуляет в районе Скрипочки кот или кошка. Очень ласковое животное, возраст молодой, предполагаю, что домашнее.</p>
+                       <a class="option-pay__telefon" href="tel:+375291102283">+375291102283</a>
+                    </article>
+                </li>
+                <li class="pay__item">
+                    <article class="pay__option_pay option-pay">
+                       <div class="option-pay__picture-wrapper">
+                            <img class="option-pay__picture" src="img/dog1.jpg" alt="Изображение питомца">
+                       </div> 
+                       <h3 class="option-pay__title">Пропал пёс</h3
+                       <p class="option-pay__descriptiot">Потерялся пёс по кличке Макс, рост в холке 50 см, окрас чёрный с оранжевыми вкраплениями, без ошейника. г. Бобруйск, район Форштадт. Награда за находку или информацию которая даст результат 500 рублей.</p>
+                       <a class="option-pay__telefon" href="tel:+375292990315">+375 29 2990315</a>
+                    </article>
+                </li>
+              </ul>  
+            </div>
+        </section>
+    </main>
+    <footer class="contacs">
+        <div class="container">
+            <div class="contacs-content">
+                <p>Если вы потеряли своего любимца <br>или ищите ему новый дом, пришлите необходимую информацию и мы поможем вам!</p>
+            </div>
+            <div class="contacs-button">
+               <a href="mailto:mary260188@mail.ru" class="btn">Отправить сообщение</a>  
+            </div>
+           
+        </div>
+       </footer>
+
+</body>
+</html>

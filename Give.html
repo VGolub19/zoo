@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo</title>
+    <link rel="preload" href="fonts/cormorant-v11-latin_cyrillic-700.woff2" as="font" type="font/woff2" crossorigin>
+
+    <style>
+        :root{
+    --main-color:#ffffff;
+    --second-color:#262626;
+    --one-color:#006F55;
+    --two-color:#00654E;
+    --three-color:#005844;
+    --main-bg-color:#02392c;
+    --second-bg-color:#C0B487;
+    --trigger-color:#E5AB39;
+    --url-features-one: url("../img/tree.svg");
+    --url-features-two: url("../img/christmas-decorations.svg");
+    --url-features-three: url("../img/flowers.svg");
+    --url-features-four: url("../img/delivery-truck.svg");
+    
+}
+    </style>
+
+<link rel="stylesheet" href="style/normalize.css">
+<link rel="stylesheet" href="style/default.css">
+<link rel="stylesheet" href="style/style.css">
+<script src="script/burger.js" defer></script>
+   
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <img class="logo" src="img/logo.svg" alt="Logo">
+            <button class="burger header__burger">
+                <span class="burger__line"></span>
+            </button>
+
+            <nav class="header__navigation navigation">
+               <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a href="index.html" class="navigation__link">Главная</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="Waifs.html" class="navigation__link">Потеряшки</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="help.html" class="navigation__link">Помощь
+                    </a>
+                </li>
+                <li class="navigation__item">
+                    <a href="Give.html" class="navigation__link">Продам/Отдам</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="clinics.html" class="navigation__link">Вет.клиники</a>
+                </li>
+               </ul> 
+            </nav>
+
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container hero__container">
+                <div class="hero__left">
+                    <img class="hero__img" src="img/dog.jpg"  width="705" height="769" alt="dog">
+                </div>
+                <div class="hero__right">
+                     <h1 class="hero__title"></h1>
+                     <p class="hero__description">Найдите новый дом для вашего любимца - разместите объявление на нашем сайте!</p>                  
+                </div>
+            </div>
+        </section>
+       
+        <section class="pay" id="pay">
+            <div class="container">
+              <h2 class="pay__title"></h2>
+              <ul class="pay__list">
+                <li class="pay__item">
+                    <article class="pay__option_pay option-pay">
+                       <div class="option-pay__picture-wrapper">
+                            <img class="option-pay__picture" src="img/1.jpg" alt="Платежные системы">
+                       </div> 
+                       <h3 class="option-pay__title">Отдам в добрые руки</h3>
+                       <p class="option-pay__descriptiot">В связи с переездом отдам кота в добрые руки Кота нет возможности забрать с собой.Выбросить на улицу рука не поднимается. Кот не молодой. Очень добрый и ласковый. К еде непривередлив. К лотку приучен.Кастрирован, передние когти удалены.</p>
+                       <a href="tel:+375295406864">+375295406864</a>
+                    </article>
+                </li>
+
+                <li class="pay__item">
+                    <article class="pay__option_pay option-pay">
+                       <div class="option-pay__picture-wrapper">
+                            <img class="option-pay__picture" src="img/pay1.jpg" alt="Платежные системы">
+                       </div> 
+                       <h3 class="option-pay__title">Двух шпицев</h3>
+                       <p class="option-pay__descriptiot"> Продаются 2 шпица.
+                        Мальчик светлый (белый) и девочка патиколорная. Очень послушные, игривые и умные. Они отлично послужат в роли преданного друга и члена для Вашей семьи.
+                        
+                        Цена договорная
+                        
+                        БОЛЬШАЯ ПРОСЬБА.
+                        ПОЖАЛУЙСТА, ЗВОНИТЕ ПО НОМЕРУ ТЕЛЕФОНА, КОТОРЫЙ УКАЗАН В ОБЪЯВЛЕНИИ.ВАМ ОТВЕТЯТ НА ЛЮБЫЕ ВОПРОСЫ.
+                        ЗВОНИТЬ МОЖНО ЕЖЕДНЕВНО ДО 22:00
+                        
+                        Благодарю!</p>
+                       <a href="tel:+375291375817">+375291375817</a>
+                    </article>
+                </li>
+                <li class="pay__item">
+                    <article class="pay__option_pay option-pay">
+                       <div class="option-pay__picture-wrapper">
+                            <img class="option-pay__picture" src="img/pay2.jpg" alt="Платежные системы">
+                       </div> 
+                       <h3 class="option-pay__title">Отдам котенка в добрые руки</h3>
+                       <p class="option-pay__descriptiot">Котёнок 5 месяцев, ласковый, игривый, к еде не привиредлив.</p>
+                       <a href="tel:+375257862305">+375257862305</a>
+                    </article>
+                </li>
+                <li class="pay__item">
+                    <article class="pay__option_pay option-pay">
+                       <div class="option-pay__picture-wrapper">
+                            <img class="option-pay__picture" src="img/pay5.jpg" alt="Платежные системы">
+                       </div> 
+                       <h3 class="option-pay__title">Красавец-пес ищет дом</h3>
+                       <p class="option-pay__descriptiot">Лорд 3 года. Терпеливый, послушный, выносливый, контактный, ласковый . Кастрирован, чипирован, обработан .</p>
+                       <a href="tel:+375291426201">+37529 1426201</a>
+                    </article>
+                </li>
+                <li class="pay__item">
+                    <article class="pay__option_pay option-pay">
+                       <div class="option-pay__picture-wrapper">
+                            <img class="option-pay__picture" src="img/pay3.jpg" alt="Платежные системы">
+                       </div> 
+                       <h3 class="option-pay__title">Ищем Галине новый дом</h3>
+                       <p class="option-pay__descriptiot">Девочку зовут Галя и у нее необычная расцветка. Ей примерно 3 годика. Кто-то ее подбросил в наш двор, на улице всего и всех боялась, была очень худая и совсем печальная. Мы ее подобрали, подлечили, откормили и стерилизовали. Оставили бы ее себе, но у нас уже есть свои животные, которые Галю почему-то недолюбливают. По характеру она спокойная, в лоток ходит без проблем, кушает как сухой корм, так и обычную еду. Если хотите что-либо спросить - позвоните, с удовольствием на отвечу на ваши вопросы)</p>
+                       <a href="tel:+375447229835">+375447229835</a>
+                    </article>
+                </li>
+                <li class="pay__item">
+                    <article class="pay__option_pay option-pay">
+                       <div class="option-pay__picture-wrapper">
+                            <img class="option-pay__picture" src="img/pay4.jpg" alt="Платежные системы">
+                       </div> 
+                       <h3 class="option-pay__title">Ласковая кошечка в хорошие руки</h3>
+                       <p class="option-pay__descriptiot">Девочке 1 годик, приучена к лотку, кушает сухой корм и обычную еду. По характеру очень ласковая, мурчит и очень любит общение с человеком. Поможем со стерилизацией</p>
+                       <a href="tel:+375447229835">+375447229835</a>
+                    </article>
+                </li>
+              </ul>  
+            </div>
+        </section>
+    </main>
+    <footer class="contacs">
+        <div class="container">
+            <div class="contacs-content">
+                <p>Если вы потеряли своего любимца <br>или ищите ему новый дом, пришлите необходимую информацию и мы поможем вам!</p>
+            </div>
+            <div class="contacs-button">
+               <a href="mailto:mary260188@mail.ru" class="btn">Отправить сообщение</a>  
+            </div>
+           
+        </div>
+       </footer>
+
+
+</body>
+</html>
